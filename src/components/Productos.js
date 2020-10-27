@@ -49,7 +49,7 @@ const Productos = () => {
             </table>
             { productos.length === 0 ? <p className="alert alert-light w-100 p2 mt-4 text-center">No hay Productos</p> : null }
             { cargando ? <p className="alert alert-success p2 mt-4 text-center">Cargando...</p> : null }
-            { error ? <p className="alert alert-danger p2 mt-4 text-center">Hubo un error al obtener los productos</p> : null }
+            { error ? <p className="alert alert-danger p2 mt-4 text-center">Hubo un error al obtener los productos, por favor actualice su navegador.</p> : null }
         </Fragment>
      );
 }
